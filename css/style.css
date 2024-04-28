@@ -9,22 +9,22 @@
 }
 
 .menu-item:hover .submenu {
+    height: 100%;
     transform: translateX(0%);
 }
 
 
 .link {
-display: flex;
-    transform: rotate(90deg);
+    display: flex;
+    writing-mode: vertical-rl;
     width: 7%;
     height: 100%;
 }
 
 .menu-link {
     background-color: #616161;
-    position:absolute;
-    
     display: flex;
+    height: 100%;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -33,7 +33,6 @@ display: flex;
     z-index: 1;
 }
 .submenu {
-    width: 100%;
     top: 100%;
     left: 0;
     margin: 0;
