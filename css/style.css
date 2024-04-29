@@ -37,7 +37,9 @@
 
 .menu__item:hover,
 .menu__item:focus {
-    color: bisque;
+    color: rgb(70, 0, 150);
+    background-color: #ffffff80;
+    border-radius: 10%;
 }
 
 
