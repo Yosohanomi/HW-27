@@ -39,3 +39,7 @@
     transition: transform 400ms ease-in-out;
     list-style: circle;
 }
+
+.submenu-item:hover {
+    color: rgb(255, 195, 64);
+}
