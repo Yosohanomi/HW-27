@@ -29,7 +29,12 @@
 .menu__item {
     color: #FFF;
     font-size: 32px;
-    list-style: circle;
+    list-style-image: url(/img/decoration-removebg-preview.png);
+}
+
+.menu__item:hover,
+.menu__item:focus {
+    color: bisque;
 }
 
 
