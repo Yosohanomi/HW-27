@@ -29,7 +29,7 @@
 .menu__item {
     color: #FFF;
     font-size: 32px;
-    list-style-image: url(/img/decoration-removebg-preview.png);
+    list-style: georgian;
 }
 
 .menu__item:hover,
