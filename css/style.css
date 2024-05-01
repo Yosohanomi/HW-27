@@ -7,8 +7,9 @@ body {
 }
 .menu {
     display: flex;
-    background-image: url(/img/acheron.jpg);
-    background-size: 100vh;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../img/acheron.jpg");;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 20vw;
     height: 100%;
@@ -21,10 +22,8 @@ body {
 }
 
 .menu:hover{
-    transform: translateX(0%);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(/img/acheron.jpg);
-    background-size: 150%;
+    transform: translate(0%, -20%);
+    /* background-size: 120%; */
 }
 
 .menu:hover .menu__title{
